@@ -1,11 +1,11 @@
-.box1 {
+.one {
     border: 5px solid greenyellow;
     margin: 1em;
     padding: 0.5em;
     width: 500px;
  
 }
-.box2 {
+.two {
     border: 5px solid greenyellow;
     margin: 1em;
     padding: 0.5em;
@@ -16,19 +16,19 @@
     margin: 1em;
     padding: 0.5em;
 }
-.filed2 {
-display: flex;
-justify-content: center;
+.box {
+float: right;
 }
 body {
     background-image: url("./photos/opa.webp") ;
     background-repeat: no-repeat;
     margin:0;
     width: 100%;
+    font-family: 'Nunito', sans-serif;
    }
 #nav {
     background-color: azure;
 }
-ul li {
+nav ul li {
     float: right;
 }
